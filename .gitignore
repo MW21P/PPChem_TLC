@@ -11,6 +11,9 @@
 #ignore all data in folder on local machine
 /data/
 /data_zip/
+/demo_data/
+*.csv
+*.zip
 # IPython
 profile_default/
 ipython_config.py
