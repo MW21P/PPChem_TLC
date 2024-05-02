@@ -1,1 +1,1 @@
-LLM_API_KEY = "Your API Key here"
+LLM_API_KEY = "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"
