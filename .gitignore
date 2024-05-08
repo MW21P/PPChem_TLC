@@ -12,6 +12,8 @@
 /data/
 /data_zip/
 /demo_data/
+/src_TLC/config.py
+*.py
 *.csv
 *.zip
 # IPython
