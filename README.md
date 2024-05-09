@@ -1,6 +1,7 @@
-## TLC prediction
+## Rf prediction for Thin-Layer-Chromatography (TLC)
 
-With this model, it will be possible to predict TLC properties like the eluent ratio and the Rf value using this ratio for a given input SMILES.
-To train the model, we extracted data from the XML files of a dataset of US patent applications from 2001 to 2016. This dataset can be found here: https://figshare.com/articles/dataset/Chemical_reactions_from_US_patents_1976-Sep2016_/5104873.
+While "cooking" organic reactions in the lab, chemists often help themselves by using TLCs to trace the progress of the reaction. This often requires a bit of trial-and-error as the ideal conditions for a nice Rf spot are empirical. And then there is also the question, which of all those blurry spots is the right product. 
+With this model, we aim to simplify chemist's lives by predicting the Rf value based on the product to expect and on the conditions used for the TLC. 
+Our model was trained using extracted data from the XML files of US patent applications from 2001 to 2016. This dataset can be found here: https://figshare.com/articles/dataset/Chemical_reactions_from_US_patents_1976-Sep2016_/5104873.
 
-It is important to create an account for Groq to get a personal API Key. This one should then be put into a file called config.py in the form: LLM_API_KEY = "Your API key here"
+If you want to conduct everything from the start again, it is crucial to create an account for Groq (the LLM API we used), which should then be put into the config.py file.
