@@ -231,3 +231,5 @@ Temporary Items
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
+
+.API_KEY.txt #keeps API Key secret
